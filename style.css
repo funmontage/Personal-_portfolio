@@ -89,3 +89,96 @@ section {
 .hamburger-icon {
     display: none;
 }
+
+/* Hero Section */
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+/* Background image with opacity */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url("black-particles-background.png") no-repeat center center/cover;
+    opacity: 0.90;
+    z-index: 0;
+}
+
+/* Dark overlay */
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/* Hero text */
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    max-width: 750px;
+}
+
+/* Slightly larger sizes */
+.hero .hello {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.hero .name {
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero .profession {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+/* Email input + button */
+.email-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.email-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    width: 280px;
+    background: #2e2e2e;
+    color: #fff;
+}
+
+.start-btn {
+    padding: 12px 22px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    background: #ff5252;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.start-btn:hover {
+    background: #e64545;
+}
