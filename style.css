@@ -1,0 +1,91 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.red-text {
+    color: #ff5252;
+}
+
+.blue-text {
+    color: #4a90e2;
+}
+
+section {
+    padding: 80px 5%;
+}
+/* Header & Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #1a1a1a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff5252;
+}
+
+.subscribe-btn {
+    text-decoration: none;
+    background-color: #ff5252;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #e64a4a;
+}
+
+/* Hide checkbox and hamburger icon by default on desktop */
+.menu-toggle {
+    display: none;
+}
+
+.hamburger-icon {
+    display: none;
+}
