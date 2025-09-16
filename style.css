@@ -182,3 +182,60 @@ section {
 .start-btn:hover {
     background: #e64545;
 }
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #212121;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 16px;
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}
+
+.talk-btn {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
