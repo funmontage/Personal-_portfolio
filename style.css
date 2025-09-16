@@ -239,3 +239,92 @@ section {
     font-weight: 600;
     transition: background-color 0.3s ease;
 }
+
+/* Interest Section */
+.Interest {
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.Interest-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.Interest-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.Interest-card {
+    background-color: #212121;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.read-more-btn {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+/* Education & skills Section */
+.education-skills {
+    background-color: #212121;
+    padding: 80px 5%;
+    color: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.edu-skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: left;
+}
+
+.education, .skills {
+    flex: 1;
+    min-width: 280px;
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.subsection-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff5252;
+}
+
+.education ul, .skills ul {
+    list-style: none;
+}
+
+.education ul li, .skills ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #d0d0d0;
+}
+
+.education ul li strong {
+    color: #fff;
+}
